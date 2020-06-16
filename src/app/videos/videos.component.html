@@ -1,0 +1,9 @@
+<p>videos works!</p>
+
+<ul>
+    <li><a [routerLink]="[{ outlets: {'route1':['videos1'] } }]">Domaine 1</a></li>
+</ul>
+
+<router-outlet name="route1"></router-outlet>
+
+<a routerLink="/home" class="grey-text">Back to home</a>
